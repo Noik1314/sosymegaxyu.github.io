@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Random Website!</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We are a group of random enthusiasts who love everything and anything random. From random facts to spontaneous ideas, we embrace the chaos of the unpredictable.</p>
+        </section>
+        <section>
+            <h2>Our Mission</h2>
+            <p>Our mission is to bring more randomness into your life! We believe that life should be fun, unexpected, and full of surprises.</p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you'd like to know more, feel free to <a href="mailto:contact@randomsite.com">reach out to us</a> anytime.</p>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center; padding: 1rem; background: #333; color: #fff;">
+            &copy; 2024 Random Website. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
